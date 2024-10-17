@@ -1,0 +1,21 @@
+{
+  "label": "Campaign Manager 360",
+  "category_label": "Models",
+  "branding": {
+      "image_uri": "https://marketplace-api.looker.com/block-icons/block-campaign_manager.png",
+      "tagline": "Flood light on campaign impressions, spend and more.\n(Beta)",
+      "badge": "Beta"
+  },
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    }
+  },
+  "models": [
+      {
+          "name": "campaign_manager_marketplace_v2",
+          "connection_constant": "CONNECTION_NAME"
+      }
+  ]
+}
